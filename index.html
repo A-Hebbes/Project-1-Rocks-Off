@@ -104,10 +104,64 @@
 
     <h2>Contact</h2>
 
-    <form type="text" action="email@rocksoff.com" method="post">
+    <fieldset>
 
-        <input type="email" name="email">
-        <input type +="submit">
+        <legend>Your details</legend>
+
+    <form type="text" action="email@rocksoff.com" method="post">
+        <label for="name-field">Name</label>
+        <input id="name-field" type="text" placeholder="Your Name" required>
+
+        <label for="email-field"></label>
+        <input type="email" id="email-field" placeholder="Your Email" required>
+
+        <p class="bold">Are you a member already?</p>
+
+        
+			<input type="radio" id="established-member" name="member">
+			<label for="established-member">I am already a member</label>
+		
+
+        
+			<input type="radio" id="new-member" name="member">
+			<label for="new-member">I have never been to Rocks Off but I climb</label>
+		
+
+        
+			<input type="radio" id="non-climber" name="member">
+			<label for="non-climber">I am not a climber, this is about something else</label>
+
+        </fieldset>
+		<br>
+        <br>
+        <br>
+
+        <label for="experience">How many years have you been climbing?</label>
+		
+		<select id="experience" name="experience">
+		    
+		    <option value="novice">0</option>
+		    <option value="newbie">1-2</option>
+		    <option value="intermediate">3-5</option>
+		    <option value="pro">5-10</option>
+		    <option value="elite">10+</option>
+		  
+		</select>
+
+        <br>
+        <br>
+
+
+        <label for="feedback">Thoughts, comments, questions? Let us know.</label>
+
+        <br>
+        
+
+        <textarea name="feedback" id="feedback" placeholder="Your Feedback" cols="80" rows="5"></textarea>
+
+       
+
+        <button type="submit"><strong>Send It</strong></button>
 
     </form>
 
