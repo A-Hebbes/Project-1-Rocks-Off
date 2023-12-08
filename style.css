@@ -125,7 +125,11 @@ img {
     position: relative;
     right: 70px;
     top: -15px;
+	
+	
 }
+
+.about-box{width: 33%}
 
 .one-third-width-column {
     width: 33.33%;
@@ -247,10 +251,6 @@ input[list=coffees] {
 	margin: 0 auto;
 }
 
-/* overrides css above */
-input[list=coffees] {
-    width: 45%;
-}
 
 select {
     height: 36px;
@@ -285,36 +285,18 @@ label {
     margin-top: 15px;
 }
 
-#reasons li {
+#info-box li {
     margin-top: 5%;
 }
 
-#terms {
-    height: 200px;
-    width: 90%;
-    padding: 0.5rem;
-    margin: 1.5rem 0 0 15px;
-    border: 1px solid grey;
-    overflow: scroll;
-}
 
-/* map */
-#map-wrapper {
 
-    height: 300px;
-    margin-bottom: 108px;
-}
-
-#map {
-    height: 100%;
-    width: 100%;
-    border: none;
-}
-
+/
 /* FLEXBOX CLASSES */
 
 .flex {
     display: flex;
+	justify-content: space-between;
 }
 
 .horizontal-center {
