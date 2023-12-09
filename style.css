@@ -111,13 +111,18 @@ img {
     position: relative;
     left: 70px;
     top: -15px;
-	
-}
+	box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+	}
 
 #walls-box {
 	background-color: #386641;
 	position: relative;
 	z-index: 1;
+	box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
 }
 
 #facilities-box {
@@ -125,9 +130,10 @@ img {
     position: relative;
     right: 70px;
     top: -15px;
-	
-	
-}
+	box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+	}
 
 .about-box{width: 33%}
 
@@ -150,6 +156,8 @@ img {
     top: 30px;
 }
 
+.solid {border-style: solid}
+
 .about-box {
 	width: 33%;
 	margin: 1rem 0;
@@ -162,7 +170,7 @@ img {
     margin-bottom: 50px;
 }
 
-.solid {border-style: solid;}
+
 
 .contact-boxes-container {
     height: 270px;
