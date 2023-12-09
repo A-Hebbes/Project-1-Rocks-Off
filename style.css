@@ -78,6 +78,8 @@ strong {
 	text-decoration: underline;
 }
 
+
+
 nav {
 	padding: 1rem;
 }
@@ -177,6 +179,7 @@ img {
 	justify-content: center;
     height: 270px;
 	gap: 20px;
+
 }
 
 .opening-box {
@@ -184,13 +187,21 @@ img {
     height: 250px;
 }
 
+#prices-boxes-container {
+	display: flex;
+	justify-content: center;
+    height: 270px;
+	gap: 20px;
+
+}
+
 table, th,
 td {
     border: 1px solid black;
 	width: 33%
 	
-	
 }
+
 
 
 
@@ -200,8 +211,9 @@ ul, ol {
 	color: #F2E8CF
 }
 
-#reasons li {
+#info-box {
     margin-top: 5%;
+	text-align: center;
 }
 
 a:hover {
