@@ -172,11 +172,14 @@ img {
 
 
 
-.contact-boxes-container {
+#opening-boxes-container {
+	display: flex;
+	justify-content: center;
     height: 270px;
+	gap: 20px;
 }
 
-.contact-box {
+.opening-box {
     flex: 0 250px;
     height: 250px;
 }
