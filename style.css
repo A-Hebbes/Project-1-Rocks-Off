@@ -90,12 +90,13 @@ nav {
 
 nav > a {
 	text-decoration: none;
-	color: beige;
+	color: #F2E8CF;
 	margin: 1rem;
 }
 
 nav > a:hover {
-	color: silver;
+	color: #F2E8CF;
+	text-decoration: underline;
 }
 
 a {
@@ -223,14 +224,16 @@ ul, ol {
 	color: #F2E8CF
 }
 
+
+
 #info-box {
     margin-top: 5%;
 	text-align: center;
 }
 
 a:hover {
-	text-decoration: none;
-	color: chocolate;
+	text-decoration: underline;
+	color: #BC4749;
 }
 
 footer {
@@ -274,22 +277,9 @@ input[type=submit] {
 	border-radius: 5px;
 }
 
-input[type=reset] {margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    background-color: #5e361b;
-    color: white;
-    border: 1px solid #5e361b;
-    border-radius: 5px;}
 
-input[type=text],
-input[type=email],
-input[list=coffees] {
-    height: 30px;
-    width: 90%;
-    padding-left: 10px;
-	margin: 0 auto;
-}
+
+
 
 
 select {
