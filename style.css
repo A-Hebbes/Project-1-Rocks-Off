@@ -31,6 +31,8 @@ header {
 	background-color: #386641;
 }
 
+
+
 #about {
 	padding: 1rem 0;
 	margin-bottom: 80px;
@@ -291,9 +293,12 @@ form {
 	padding: 25px;
 	border-radius: 8px;
 	margin: 25px auto;
-	background-color: white;
+	background-color: #A7C957;
 }
 
+	
+	textarea {background-color: #A7C957  ;}
+	
 .block-label {
 	display: block;
 }
