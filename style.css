@@ -171,7 +171,7 @@ img {
 
 /* padding to allow for fixed footer */
 #contact {
-    margin-bottom: 50px;
+    margin-bottom: 110px;
 }
 
 
@@ -298,7 +298,13 @@ form {
 
 	
 	textarea {background-color: #A7C957  ;}
-	
+
+	select {background-color: #A7C957;}
+
+	input {background-color: #A7C957;}
+
+	button {background-color: #A7C957;}
+
 .block-label {
 	display: block;
 }
