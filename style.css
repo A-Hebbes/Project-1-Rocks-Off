@@ -183,7 +183,7 @@ td {
 
 
 
-ul, ol {
+ul {
 	padding: 0;
 	list-style-type: circle;
 	list-style-position: inside;
@@ -213,9 +213,7 @@ footer {
 	z-index: 3;
 }
 
-footer > span {
-	color: silver;
-}
+
 
 footer > a {
 	color: beige;
