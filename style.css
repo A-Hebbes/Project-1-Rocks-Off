@@ -65,6 +65,7 @@ p {color: #F2E8CF;}
 
 .text-center {
     text-align: center;
+	
 }
 
 .text-right {
@@ -361,7 +362,7 @@ label {
 
 /* Smaller screen styles */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1090px) {
     body {
         font-size: 14px;
 		width: 100%;
