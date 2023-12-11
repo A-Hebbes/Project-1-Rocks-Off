@@ -235,9 +235,7 @@ input[type=submit] {
 	margin-top: 20px;
 	margin-left: 0.75rem;
 	padding: 0.75rem;
-	background-color: #5e361b;
-	color: white;
-	border: 1px solid #5e361b;
+	border: 1px solid #344e41;
 	border-radius: 5px;
 }
 
@@ -267,26 +265,16 @@ form {
 
 	input {background-color: #F2E8CF;}
 
-	button {background-color: #F2E8CF;}
+	button {background-color: #F2E8CF;
+			color: #344e41; 
+	}
 
-.block-label {
-	display: block;
-}
-
-legend {
-	font-size: large;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin: 20px 0 10px 0;
-}
 
 label {
     margin: 10px 15px 5px 0;
 }
 
-.checkboxes-box div {
-    margin-top: 15px;
-}
+
 
 #info-box li {
     margin-top: 5%;
@@ -309,18 +297,6 @@ label {
 
 .vertical-center {
     align-self: center;
-}
-
-.vertical-bottom {
-    align-self: flex-end;
-}
-
-.last {
-    order: 1;
-}
-
-.gap-20 {
-    gap: 20px;
 }
 
 /* Smaller screen styles */
