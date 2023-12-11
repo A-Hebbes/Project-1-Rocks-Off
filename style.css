@@ -3,7 +3,7 @@
 body {
 	font-family: 'Open Sans', 'Arial', 'sans-serif';
 	margin: 0;
-	background-color: #6A994E;
+	background-color: #344e41;
 	color: #F2E8CF;
 	width: 100%
 }
@@ -23,10 +23,6 @@ h2 {
 	font-size: xx-large;
 }
 
-
-header {
-	background-color: #386641;
-}
 
 p {color: #F2E8CF;}
 
