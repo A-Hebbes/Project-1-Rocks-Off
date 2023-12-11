@@ -357,3 +357,47 @@ label {
 .gap-20 {
     gap: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+       
+    }
+
+	#about {display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	
+	}
+
+
+	#story-box {
+		background-color: #386641;
+		margin: 1rem 0;
+		left: 0;
+		top: 0;
+		box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+		}
+
+		#walls-box {
+			background-color: #386641;
+			margin: 1rem 0;
+		left: 0;
+		top: 0;
+		box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+		}
+
+		#facilities-box {
+			background-color: #386641;
+			margin: 1rem 0;
+		left: 0;
+		top: 0;
+		box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+			}
