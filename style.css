@@ -222,7 +222,8 @@ td {
 
 ul, ol {
 	padding: 0;
-	list-style-type: none;
+	list-style-type: circle;
+	list-style-position: inside;
 	color: #F2E8CF
 }
 
@@ -431,19 +432,21 @@ label {
 
 			section {width: 100%}
 
-			fieldset {width: 100%;
+			fieldset {display: flex;
+				width: 100%;
 					max-height: none;
 					box-sizing: border-box;
 					min-inline-size: initial;
 			}
 
-			textarea {max-width: 100%;}
+			textarea {
+				max-width: 90%;}
 
 			form {
 				width: 100%;
-				padding: 25px;
+				padding: 0px;
 				border-radius: 8px;
-				margin: 25px auto;
+				margin: 50px auto;
 				background-color: #386641;
 			}
 
