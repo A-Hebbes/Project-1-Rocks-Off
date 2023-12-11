@@ -6,24 +6,25 @@ This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the we
 
 ## Features 
 
+
 ### Existing Features 
 
 **Navigation Bar**
 
--
--
--
+- The navigation bar allows easy access around the site and includes links to the sections: About Us, Times and Prices, and Contact Us. 
+- As the website is a single page which scrolls the links take the user to the relevant section. 
+
 
 **Landing Page Image**
 
--
--
--
+- The landing includes the name of the gym and brief welcome message.
+- There is an eyecatching image of a woman bouldering to help emphasise the purpose of the website.
+
 
 
 **General Information Section**
 
--
+- 
 -
 -
 
