@@ -15,12 +15,12 @@ h1,h2,h3 {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 48px;
 	margin: 0;
 }
 
 h2 {
-	font-size: xx-large;
+	font-size: 32px;
 }
 
 
@@ -117,7 +117,7 @@ img {
 -webkit-box-sizing: border-box;
 	}
 
-.about-box{width: 33%}
+
 
 
 
@@ -154,6 +154,7 @@ img {
 .opening-box {
     flex: 0 250px;
     height: 250px;
+	display: inline-block
 }
 
 #prices-boxes-container {
@@ -162,6 +163,10 @@ img {
     height: 270px;
 	gap: 20px;
 
+}
+
+#prices {margin-bottom: 80px;
+		 
 }
 
 
@@ -277,7 +282,6 @@ label {
 
 .flex {
     display: flex;
-	justify-content: space-between;
 	flex-direction: column
 }
 
@@ -351,12 +355,15 @@ label {
 		box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+	
 			}
 
 			#contact {display: flex;
 				flex-direction: column;
 				align-items: center;
 				justify-content: center;}
+
+				.box-shade {box-shadow: }
 
 			section {width: 100%}
 
@@ -372,7 +379,6 @@ label {
 
 			form {
 				width: 100%;
-				padding: 0px;
 				border-radius: 8px;
 				margin: 50px auto;
 				background-color: #386641;
