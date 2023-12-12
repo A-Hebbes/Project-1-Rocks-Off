@@ -79,7 +79,7 @@ INSERT IMAGE HERE
 
 ### Validator Testing 
 
-Html and CSS were tested on [W3C HTML code validator] (https://validator.w3.org/) and [W3C CSS code validator] (https://jigsaw.w3.org/css-validator/). 
+Html and CSS were tested on W3C HTML code validator (https://validator.w3.org/) and W3C CSS code validator(https://jigsaw.w3.org/css-validator/). 
 
 **Html**
 
@@ -90,10 +90,18 @@ An issue was flagged with aria labels in the code validator. The aria attributes
 
 The validator found no issues with the CSS. 
 
+### Lighthouse
+
+Lighthouse in dev tools was used to check for accesibility. An issue with text contrast with background was flagged in certain sections of the site. To rectify this I changed the background colour of the site to a darker shade of green. This fixed the issue. There was also an issue with the aria labels for the navigation a elements. The aria label didn't match exactly with the text displayed on the screen e.g. Aria label read: **Return to the top of the page** but the text displayed on screen read: **Back to top** Lighthouse said that this can lead to confusion for users who use screen readers. I made the change so that aria labels matched the text displayed and the issue was resolved.  
+
 
 
 
 ### Unfixed Bugs
+
+- Lighthouse still brings up issues with performance. 
+
+
 
 
 ## Deployment 
