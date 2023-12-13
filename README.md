@@ -156,7 +156,11 @@ When I was having issues with the code I would seek advice from Chat Gpt as if i
 
 Code found at (https://forum.freecodecamp.org/t/setting-a-right-border-breaks-my-html-and-css-layout/183473) given by **hadrienallemon** was used to help sort layout in relation to borders. 
 
-**Educational Sites and Forums**
+**Box Shading Guide**
+
+I looked at the article at (https://css-tricks.com/snippets/css/css-box-shadow/) to see how to add shade to my boxes.  I changed the pixels in the code to REM equivalent for responsivity and used a color shade that is more in keeping with my site aesthetic.
+
+**Educational Sites and Fora**
 
 Listed below are more sites that I used to gain understanding of issues I was having. 
 
@@ -169,6 +173,8 @@ Listed below are more sites that I used to gain understanding of issues I was ha
 (https://developer.mozilla.org/en-US/)
 
 (https://forum.freecodecamp.org/)
+
+(https://nekocalc.com/px-to-rem-converter)
 
 
 
