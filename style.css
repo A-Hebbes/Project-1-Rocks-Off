@@ -261,7 +261,12 @@ form {
 	input {background-color: #F2E8CF;}
 
 	button {background-color: #F2E8CF;
-			color: #344e41; 
+			color: #344e41; 	
+	}
+
+	button:hover {background-color: #386641;
+					color:#F2E8CF;
+				  -webkit-transition: 1s ease;
 	}
 
 
