@@ -127,8 +127,8 @@ Lighthouse still brings up issues with performance. It asks me to 'avoid chainin
 
  1. Go to the repository A-Hebbes/Project-1-Rocks-Off
  2. In side navigation select 'Pages'
- 3. In the dropdown select 'None'
- 4. Click on 'Master' 
+ 3. In the dropdown select 'Main'
+ 4. Click on 'Root' 
  5. Click 'Save'
  6. Site is now live at: INSERT SITE HERE
 
