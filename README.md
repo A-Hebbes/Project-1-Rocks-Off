@@ -75,7 +75,8 @@ This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the we
 
 - Having links to social media allows the centre to market to, and communicate with, users. 
 
-INSERT IMAGE HERE 
+![rocks-off-footer](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/1eb4336b-fd6b-4744-bd9e-c1515c607ec1)
+
 
 ### Features left to implement 
 
@@ -90,8 +91,6 @@ Prior to validator and lighthouse testing some bugs were evident in preview. I w
 The background colour of the form did not fit with the site aesthetic so the colour was changed to be more in keeping. This led to readability issues, so I changed the colour of the background and text. 
 
 There were issues with the fieldset element not fitting into the flow of the page on smaller screens. I changed the width of the fieldset to 100% and then the text area I changed to 90%. Using the percentage values allowed for more flexibility on the smaller screen sizes.  
-
-
 
 
 
@@ -113,12 +112,12 @@ The validator found no issues with the CSS.
 Lighthouse in dev tools was used to check for accesibility. An issue with text contrast with background was flagged in certain sections of the site. To rectify this I changed the background colour of the site to a darker shade of green. This fixed the issue. There was also an issue with the aria labels for the navigation a elements. The aria label didn't match exactly with the text displayed on the screen e.g. Aria label read: **Return to the top of the page** but the text displayed on screen read: **Back to top** Lighthouse said that this can lead to confusion for users who use screen readers. I made the change so that aria labels matched the text displayed and the issue was resolved.  After changes the accesibility was improved from 80% to 94%
 
 
+![rocks-off-lighthouse](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/6ed5e5bf-7227-437a-abb6-961978b2d34e)
 
 
 ### Unfixed Bugs
 
 Lighthouse still brings up issues with performance. It asks me to 'avoid chaining critical requests' at present this is beyond my knowledge set and I will need to research to rectify this issue. Lighthouse also states that I should avoid large layout shifts. I think this is in reference to the changes I made to ensure that content remains readable on smaller screens. With more time I would look more into the responsive features and make site use more easy across different screen sizes. At present I have one media query for smaller screens which changes the site layout at max width 1090 px . I think there should probably be more flexibility to this. 
-
 
 
 
@@ -132,9 +131,6 @@ Lighthouse still brings up issues with performance. It asks me to 'avoid chainin
  4. Click on 'Master' 
  5. Click 'Save'
  6. Site is now live at: INSERT SITE HERE
-
-
-
 
 
 
@@ -192,12 +188,16 @@ Listed below are more sites that I used to gain understanding of issues I was ha
 
 ### Content
 
-
-
-
+  
+- The coders coffee house project served as inspiration for layout and approach to coding the site.   
 
 
 ### Media 
+
+
+- Images came from (https://unsplash.com/)
+
+
 
 
 
