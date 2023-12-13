@@ -1,8 +1,7 @@
 # Rocks Off Climbing Gym 
 
 This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the website is to convey a welcoming tone to whilst also providing important information. The site also allows users to contact Rocks Off whilst also providing basic information about themselves and their climbing experience. 
-
-![Rocks Off Website Examples](RocksOff.jpg)
+![RocksOff](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/102dfb06-87b9-45c5-b50b-b6df84cda5a5)
 
 ## Features 
 
@@ -11,11 +10,16 @@ This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the we
 
 **Navigation Bar**
 
+![rocks-off-nav](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/43b1f185-74a2-4e00-9f75-35a0d48d0a2d)
+
+
 - The navigation bar allows easy access around the site and includes links to the sections: About Us, Times and Prices, and Contact Us. 
 - As the website is a single page which scrolls the links take the user to the relevant section. 
 
 
 **Landing Page Image**
+
+![rocks-off-landing](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/5a9bbc5c-aa5f-4efa-968f-d11a14e63b2e)
 
 - The landing includes the name of the gym and brief welcome message.
 
@@ -25,13 +29,15 @@ This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the we
 
 **General Information Section**
 
+![rocks-off-about](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/b1f2c839-de1a-46d8-8c46-39a7e326ddff)
+
 - There is an 'about us' section which gives information about the centre. This section aims to answer some questions which users may have whilst also exciting an interest in using the facilities. 
 
 - There is a 'story' section that gives a bit of a story about the centre's background. The 'walls' section gives specific information about what climbing there is available. Then the final section is about the general facilities that the club has on offer. These are facilities that will increase convenience and comfort of users and so are good to mention here. 
 
 - The background image is a close up of hands belaying. This is to again reinforce the purpose of the page. It also serves to emphasise that Rocks Off is not just a bouldering centre, but also has roped climbing opportunities. 
 
-INSERT IMAGE HERE
+
 
 **Opening Times and Prices Section**
 
@@ -41,7 +47,8 @@ INSERT IMAGE HERE
 
 - This section could be updated as times change or as more membership options become available. 
 
-INSERT IMAGE HERE
+![rocks-off-table](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/139f5b9b-61c4-4c30-91c5-fa0035ccdcba)
+
 
 **Contact Us Section**
 
@@ -55,9 +62,10 @@ INSERT IMAGE HERE
 
 - The button to send the form has the text 'send it' this is to fit with the climbing vernacular further emphasising the purpose of the site. 
 
-- For further information the club phone number and address are below the form. This information is of benefit to the user so that they can contact with more specific or urgent enquiries. This will allow aid users in finding Rocks Off when they visit. 
+- For further information the club phone number and address are below the form. This information is of benefit to the user so that they can contact with more specific or urgent enquiries. This will allow aid users in finding Rocks Off when they visit.
+  
+![rocks-off-contact](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/11659057-273f-4251-8549-10337def9b42)
 
-INSERT IMAGE HERE
 
 **The Footer**
 
