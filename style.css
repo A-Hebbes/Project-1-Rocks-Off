@@ -275,7 +275,7 @@ label {
     margin-top: 5%;
 }
 
-
+.box-shade {box-shadow: 0.2rem 0.2rem 0.313rem 0.375rem #BDDBC3;}
 
 
 /* FLEXBOX CLASSES */
@@ -363,7 +363,7 @@ label {
 				align-items: center;
 				justify-content: center;}
 
-				.box-shade {box-shadow: }
+				
 
 			section {width: 100%;
 					display: flex;
