@@ -162,7 +162,7 @@ I looked at the article at (https://css-tricks.com/snippets/css/css-box-shadow/)
 
 **Educational Sites and Fora**
 
-Listed below are more sites that I used to gain understanding of issues I was having. 
+Listed below are more sites that I used to gain understanding of issues I was having or insights into best practice. 
 
 (https://www.thoughtco.com/)
 
@@ -177,6 +177,8 @@ Listed below are more sites that I used to gain understanding of issues I was ha
 (https://nekocalc.com/px-to-rem-converter)
 
 (https://alistapart.com/)
+
+(https://webflow.com/blog/fonts-for-web-design)
 
 
 
