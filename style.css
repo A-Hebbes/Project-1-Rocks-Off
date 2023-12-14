@@ -1,5 +1,6 @@
 /*CSS Styles initially transferred from coders coffeehouse project then edited and adapted*/
 
+
 body {
 	font-family: 'Inter', 'sans-serif';
 	margin: 0;
@@ -304,6 +305,8 @@ label {
     body {
         font-size: 14px;
 		width: 100%;
+		margin: 0;
+		padding: 0;
        
     }
 
@@ -377,7 +380,7 @@ label {
 					}
 
 			fieldset {display: flex;
-				width: 100%;
+				max-width: 75%;
 					max-height: none;
 					box-sizing: border-box;
 					min-inline-size: initial;
@@ -392,6 +395,7 @@ label {
 				border-radius: 8px;
 				margin: 50px auto;
 				background-color: #386641;
+				padding: 0;
 			}
 
 		}
