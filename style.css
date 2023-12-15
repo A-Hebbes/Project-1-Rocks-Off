@@ -203,13 +203,11 @@ a:hover {
 
 footer {
 	background-color: #344e41;
-	padding: 1em;
 	text-align: center;
     width: 100%;
-    position: fixed;
     bottom: 0;
     right: 0;
-	z-index: 3;
+
 }
 
 
