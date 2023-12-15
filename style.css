@@ -213,14 +213,14 @@ footer {
 
 
 footer > a {
-	color: beige;
+	color: #F2E8CF;
 	text-decoration: none;
 	padding: 0 15px;
 	font-size: 0.8rem;
 }
 
 footer > p {
-	color: silver;
+	color: #C0C0C0;
 }
 
 fieldset {
@@ -229,7 +229,7 @@ fieldset {
 }
 
 input[type=submit] {
-	margin-top: 20px;
+	margin-top: 1.25rem;
 	margin-left: 0.75rem;
 	padding: 0.75rem;
 	border: 1px solid #344e41;
