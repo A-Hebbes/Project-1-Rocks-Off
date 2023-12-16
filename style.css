@@ -177,7 +177,7 @@ td {
     border: 1px solid #F2E8CF;
 	width: 33%;
 	background-color: #386641;
-	margin-right: 30%;
+	
 	
 	
 }
@@ -368,6 +368,17 @@ label {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	
+
+	table, th,
+	td {
+		border: 1px solid #F2E8CF;
+		width: 33%;
+		background-color: #386641;
+		margin-right: 30%;
+		
+		
+	}
+
 			}
 
 			#contact {display: flex;
