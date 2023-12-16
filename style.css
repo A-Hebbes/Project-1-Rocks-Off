@@ -52,6 +52,7 @@ p {color: #F2E8CF;}
 }
 
 
+
 strong {
 	font-size: 1.3rem;
 }
@@ -191,7 +192,7 @@ ul {
 
 
 
-#info-box {
+.info-box {
     margin-top: 5%;
 	text-align: center;
 }
@@ -207,6 +208,8 @@ footer {
     width: 100%;
     bottom: 0;
     right: 0;
+	flex-direction: column;
+	justify-content: space-evenly;
 
 }
 
@@ -312,6 +315,8 @@ label {
         flex-direction: column; 
         align-items: center; 
         text-align: center; 
+		flex-wrap: wrap;
+		
     }
 
 	nav > a {
