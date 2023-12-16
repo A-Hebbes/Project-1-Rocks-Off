@@ -176,7 +176,10 @@ table, th,
 td {
     border: 1px solid #F2E8CF;
 	width: 33%;
-	background-color: #386641
+	background-color: #386641;
+	
+	
+	
 	
 }
 
@@ -208,9 +211,7 @@ footer {
     width: 100%;
     bottom: 0;
     right: 0;
-	flex-direction: column;
-	justify-content: space-evenly;
-	align-items: center;
+	
 
 }
 
