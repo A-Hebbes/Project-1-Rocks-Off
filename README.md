@@ -82,6 +82,10 @@ This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the we
 
 - The site could also include a gear shop online in the fuuture. This would complement the on-site gear shop mentioned in the facilities box in the about us section. 
 
+- Social media links direct to the social media main page as there are no social media addresses for teh site. 
+
+-The form action is set to email@rocksoff.com because there is nowhere for the data to be sent to. 
+
 
 
 ## Testing
