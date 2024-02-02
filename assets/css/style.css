@@ -36,12 +36,12 @@ p {
 #about {
     padding: 1rem 0;
     margin-bottom: 80px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/belay-hands.webp") center center / cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/images/belay-hands.webp") center center / cover no-repeat fixed;
 }
 
 
 #home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/indoor-climbing.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/images/indoor-climbing.webp");
 }
 
 .page-header {
