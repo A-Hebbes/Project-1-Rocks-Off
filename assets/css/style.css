@@ -19,24 +19,25 @@ h3 {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 3em;
     margin: 0;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 2em;
 }
 
 
 p {
+    font-size: 1em;
     color: #F2E8CF;
 }
 
 
 
 #about {
-    padding: 1rem 0;
-    margin-bottom: 80px;
+    padding: 1em 0;
+    margin-bottom: 5em;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/belay-hands.webp") center center / cover no-repeat fixed;
 }
 
@@ -96,7 +97,7 @@ a {
 }
 
 img {
-    border-radius: 8px;
+    border-radius: 0.5em;
     width: 96%;
     margin: 2%;
 }
@@ -104,8 +105,8 @@ img {
 #story-box {
     background-color: #386641;
     position: relative;
-    left: 70px;
-    top: -15px;
+    left: 4.375em;
+    top: -0.9375em;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -123,8 +124,8 @@ img {
 #facilities-box {
     background-color: #386641;
     position: relative;
-    right: 70px;
-    top: -15px;
+    right: 5em;
+    top: -0.9375em;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -254,6 +255,7 @@ select {
 
 input {
     background-color: #F2E8CF;
+    padding: 0.2em;
 }
 
 button {
@@ -299,11 +301,20 @@ label {
 @media screen and (max-width: 1090px) {
 
     body {
-        font-size: 14px;
+        font-size: 0.875em;
         max-width: 100vw;
         margin: 0;
         padding: 0;
 
+    }
+
+    .page-header {
+        height: 30vh;
+        background: center 75% / cover no-repeat;
+    }
+    
+    h1 {
+        font-size: 1.75em;
     }
 
     nav {
@@ -344,41 +355,24 @@ label {
     }
 
 
-    #story-box {
-        background-color: #386641;
-        margin: 1rem 0;
-        left: 0;
-        top: 0;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-    }
-
-    #walls-box {
-        background-color: #386641;
-        margin: 1rem 0;
-        left: 0;
-        top: 0;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-    }
-
+    #story-box,
+    #walls-box
     #facilities-box {
         background-color: #386641;
-        margin: 1rem 0;
+        margin: 1em 0;
         left: 0;
         top: 0;
         box-sizing: border-box;
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
     }
+
 
 
     table,
     th,
     td {
-        border: 1px solid #F2E8CF;
+        border: 0.2em solid #F2E8CF;
         width: 33%;
         background-color: #386641;
         margin-right: 30%;
