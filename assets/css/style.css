@@ -354,6 +354,12 @@ label {
 
     }
 
+    .about-box {
+        width: 60%;
+        margin: 1rem 0;
+        display: inline-block;
+    }
+
 
     #story-box,
     #walls-box
