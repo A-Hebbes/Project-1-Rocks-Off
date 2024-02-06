@@ -60,8 +60,6 @@ p {
 nav {
     padding: 1rem;
     background-color:#344e41;
-    
-    
 }
 
 nav>a {
@@ -85,13 +83,6 @@ a {
     text-decoration: none;
     color: #f2e8cf;
     margin: 1rem;
-}
-
-#home-btn {
-    position: fixed;
-    bottom: 0.5em;
-    right: 0.5em;
-
 }
 
 .bold {
@@ -339,16 +330,6 @@ label {
 
     nav>a {
         margin: 0.5rem;
-    }
-
-    #home-btn-icon {
-        visibility: visible;
-        opacity: 1;
-    }
-
-    #home-btn-text {
-        visibility: hidden;
-
     }
 
     .flex {
