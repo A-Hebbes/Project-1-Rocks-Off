@@ -6,8 +6,7 @@ body {
     margin: 0;
     background-color: #344e41;
     color: #F2E8CF;
-    width: 100vw;
-    overflow-x: hidden;
+    width: 100vw;    
 }
 
 h1,
@@ -60,6 +59,9 @@ p {
 
 nav {
     padding: 1rem;
+    background-color:#344e41;
+    
+    
 }
 
 nav>a {
@@ -71,6 +73,12 @@ nav>a {
 nav>a:hover {
     color: #F2E8CF;
     text-decoration: underline;
+}
+
+.nav-stick {
+    position: sticky;
+    top: 0;
+    z-index: 9;
 }
 
 a {
@@ -210,6 +218,12 @@ footer>a {
 
 footer>p {
     color: #C0C0C0;
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 fieldset {
@@ -439,4 +453,7 @@ label {
     right: 0;
 }
 
+.social-link {
+    flex-direction: column;
+}
 }
