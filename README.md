@@ -1,7 +1,7 @@
 # Rocks Off Climbing Gym 
 
 This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the website is to convey a welcoming tone to whilst also providing important information. The site also allows users to contact Rocks Off whilst also providing basic information about themselves and their climbing experience. 
-![RocksOff](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/102dfb06-87b9-45c5-b50b-b6df84cda5a5)
+![RocksOff] (docs/responsive-rocksoff.JPG)
 
 ## Features 
 
