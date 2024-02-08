@@ -1,6 +1,5 @@
 /*CSS Styles initially transferred from coders coffeehouse project then edited and adapted*/
 
-
 body {
     font-family: 'Inter', 'sans-serif';
     margin: 0;
@@ -26,20 +25,16 @@ h2 {
     font-size: 2em;
 }
 
-
 p {
     font-size: 1em;
     color: #F2E8CF;
 }
-
-
 
 #about {
     padding: 1em 0;
     margin-bottom: 5em;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/belay-hands.webp") center center / cover no-repeat fixed;
 }
-
 
 #home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/indoor-climbing.webp");
@@ -50,12 +45,9 @@ p {
     background: center 75% / cover no-repeat;
 }
 
-
 .text-center {
     text-align: center;
-
 }
-
 
 nav {
     padding: 1rem;
@@ -338,7 +330,6 @@ label {
         flex-direction: column;
     }
 
-
     #about {
         display: flex;
         flex-direction: column;
@@ -353,7 +344,6 @@ label {
         display: inline-block;
     }
 
-
     #story-box,
     #walls-box
     #facilities-box {
@@ -365,8 +355,6 @@ label {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
     }
-
-
 
     table,
     th,
@@ -381,8 +369,6 @@ label {
     th {
         font-size: 1em;
     }
-
-
 
     #contact {
         display: flex;

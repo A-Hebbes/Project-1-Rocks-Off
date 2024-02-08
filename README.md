@@ -90,39 +90,62 @@ This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the we
 
 ## Testing
 
-Prior to validator and lighthouse testing some bugs were evident in preview. I was having issues with the layout of boxes on the screen. The issue seemed to be related to the box borders. I found advice on (https://forum.freecodecamp.org/t/setting-a-right-border-breaks-my-html-and-css-layout/183473) from user **hadrienalllemon** which indicated that I could use border box to bring the child inside the parent. There was also advice to include different box-sizing for different browsers e.g. moz-box-sizing and webkit-box-sizing. Including this in the code solved the issue. 
+The code was validated through the W3C HTML Validator, W3C CSS Validator, and JSHint. These were used to ensure that syntax errors or omissions were rectified prior to submission.
+ - (https://validator.w3.org/)
+ - (https://jigsaw.w3.org/css-validator/)
+ - (https://jshint.com/)
 
-The background colour of the form did not fit with the site aesthetic so the colour was changed to be more in keeping. This led to readability issues, so I changed the colour of the background and text. 
+HTML Validation
+ - The HTML passed the validator with no issues. 
 
-There were issues with the fieldset element not fitting into the flow of the page on smaller screens. I changed the width of the fieldset to 100% and then the text area I changed to 90%. Using the percentage values allowed for more flexibility on the smaller screen sizes.  
+ CSS Validation
+ - One of the reasons that the project failed initially was becuase an error in the CSS code which was picked up in the validator testing. Removal of an extra bracket solved this issue.
 
 
+### Lighthouse 
+
+![Testing Image](docs/lighthouse-rocksoff.jpg)
+
+Lighthouse was used to check for accesibility and performance. 
+
+Text contrast was found to limit the accessibility score as the contrast between text and background was not effective for some users. To rectify this I changed the background colour of the site to a darker shade of green. This fixed the issue. 
+
+There was also an issue with the aria labels for the navigation a elements. The aria label didn't match exactly with the text displayed on the screen e.g. Aria label read: **Return to the top of the page** but the text displayed on screen read: **Back to top** Lighthouse said that this can lead to confusion for users who use screen readers. I made the change so that aria labels matched the text displayed and the issue was resolved.  After changes the accesibility was improved from 80% to 94%
+
+### Devices 
+- The site was tested on **Chrome** and **Safari**
+- Devices used for testing were and iPhone SE, a MacBook Air and an iPad. 
+
+### Testing User Stories
+
+1. As a user I want to find information which will aid me in organising a visit to the climbing centre. 
+    - There are sections which list the opening times and prices. The address of the centre is included in the contact us section of the site. 
+
+2. As a user I want to be able to contact the centre to gain further information. 
+    - A contact form is available for users to get in touch. There are also links to the social media sites. 
+
+3. As a user I want to know what facilities the centre provides. 
+    - There is a section with information about the facilities available to the user when they visit. This includes climbing specific information and more general facilities such as coffee shop and toilets.  
+
+### Fixed Bugs
+
+- There was an issue with page scroll on some devices. I had initially tried to fix this with by setting the scroll on the x axis as hidden in the CSS. My mentor advised me that this was bad practise and that by adapting the layout of the footer in the media query would help with this issue. 
+- Prior to validator and lighthouse testing some bugs were evident in preview. I was having issues with the layout of boxes on the screen. The issue seemed to be related to the box borders. I found advice on (https://forum.freecodecamp.org/t/setting-a-right-border-breaks-my-html-and-css-layout/183473) from user **hadrienalllemon** which indicated that I could use border box to bring the child inside the parent. There was also advice to include different box-sizing for different browsers e.g. moz-box-sizing and webkit-box-sizing. Including this in the code solved the issue. 
+- 
+
+### Functionality
+
+- All buttons were tested and directed the user as expected. 
+- The contact form was tested to ensure that radio buttons and dropdown work as expected. 
 
 ### Validator Testing 
 
 Html and CSS were tested on W3C HTML code validator (https://validator.w3.org/) and W3C CSS code validator(https://jigsaw.w3.org/css-validator/). 
 
-**Html**
-
-An issue was flagged with aria labels in the code validator. The aria attributes were not correct. The issue was that I had just put 'aria' and not 'aria-label'. This was an easy enough fix. Re-running the code through the validator found no issues. 
-
-
-**CSS**
-
-The validator found no issues with the CSS. 
-
-### Lighthouse
-
-Lighthouse in dev tools was used to check for accesibility. An issue with text contrast with background was flagged in certain sections of the site. To rectify this I changed the background colour of the site to a darker shade of green. This fixed the issue. There was also an issue with the aria labels for the navigation a elements. The aria label didn't match exactly with the text displayed on the screen e.g. Aria label read: **Return to the top of the page** but the text displayed on screen read: **Back to top** Lighthouse said that this can lead to confusion for users who use screen readers. I made the change so that aria labels matched the text displayed and the issue was resolved.  After changes the accesibility was improved from 80% to 94%
-
-
-![Testing Image](docs/lighthouse-rocksoff.jpg)
-
 
 ### Unfixed Bugs
 
 Lighthouse still brings up issues with performance. It asks me to 'avoid chaining critical requests' at present this is beyond my knowledge set and I will need to research to rectify this issue. Lighthouse also states that I should avoid large layout shifts. I think this is in reference to the changes I made to ensure that content remains readable on smaller screens. With more time I would look more into the responsive features and make site use more easy across different screen sizes. At present I have one media query for smaller screens which changes the site layout at max width 1090 px . I think there should probably be more flexibility to this. There is also an aesthetic issue in the deployed site which I am unable to fix. The tables move to the left of the page on the deployed site when I look at it on my iphone SE phone. The issue is not present in dev tools preview and I have made a number of attempts to fix it to no avail. 
-
 
 
 ## Deployment 
