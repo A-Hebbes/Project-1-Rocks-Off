@@ -10,7 +10,7 @@ This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the we
 
 **Navigation Bar**
 
-![rocks-off-nav](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/43b1f185-74a2-4e00-9f75-35a0d48d0a2d)
+![Rocks Off Nav Bar](docs/nav-bar-rocksoff.jpg)
 
 
 - The navigation bar allows easy access around the site and includes links to the sections: About Us, Times and Prices, and Contact Us. 
@@ -19,7 +19,7 @@ This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the we
 
 **Landing Page Image**
 
-![rocks-off-landing](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/5a9bbc5c-aa5f-4efa-968f-d11a14e63b2e)
+![Landing Page](docs/landing-page-rocksoff.jpg)
 
 - The landing includes the name of the gym and brief welcome message.
 
@@ -29,7 +29,7 @@ This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the we
 
 **General Information Section**
 
-![rocks-off-about](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/b1f2c839-de1a-46d8-8c46-39a7e326ddff)
+![About Section](docs/about-rocksoff.jpg)
 
 - There is an 'about us' section which gives information about the centre. This section aims to answer some questions which users may have whilst also exciting an interest in using the facilities. 
 
@@ -47,7 +47,7 @@ This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the we
 
 - This section could be updated as times change or as more membership options become available. 
 
-![rocks-off-table](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/139f5b9b-61c4-4c30-91c5-fa0035ccdcba)
+![Rocks Off Opening Times Table](docs/opening-rocksoff.jpg)
 
 
 **Contact Us Section**
@@ -64,7 +64,7 @@ This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the we
 
 - For further information the club phone number and address are below the form. This information is of benefit to the user so that they can contact with more specific or urgent enquiries. This will allow aid users in finding Rocks Off when they visit.
   
-![rocks-off-contact](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/11659057-273f-4251-8549-10337def9b42)
+![Contact Form](docs/contact-rocksoff.jpg)
 
 
 **The Footer**
@@ -75,7 +75,7 @@ This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the we
 
 - Having links to social media allows the centre to market to, and communicate with, users. 
 
-![rocks-off-footer](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/1eb4336b-fd6b-4744-bd9e-c1515c607ec1)
+![Footer](docs/footer-rocksoff.jpg)
 
 
 ### Features left to implement 
@@ -116,7 +116,7 @@ The validator found no issues with the CSS.
 Lighthouse in dev tools was used to check for accesibility. An issue with text contrast with background was flagged in certain sections of the site. To rectify this I changed the background colour of the site to a darker shade of green. This fixed the issue. There was also an issue with the aria labels for the navigation a elements. The aria label didn't match exactly with the text displayed on the screen e.g. Aria label read: **Return to the top of the page** but the text displayed on screen read: **Back to top** Lighthouse said that this can lead to confusion for users who use screen readers. I made the change so that aria labels matched the text displayed and the issue was resolved.  After changes the accesibility was improved from 80% to 94%
 
 
-![rocks-off-lighthouse](https://github.com/A-Hebbes/Project-1-Rocks-Off/assets/148571629/6ed5e5bf-7227-437a-abb6-961978b2d34e)
+![Testing Image](docs/lighthouse-rocksoff.jpg)
 
 
 ### Unfixed Bugs
