@@ -49,6 +49,8 @@ p {
     text-align: center;
 }
 
+/* Nav bar styles */
+
 nav {
     padding: 1rem;
     background-color:#344e41;
@@ -80,6 +82,8 @@ a {
 .bold {
     font-weight: bold;
 }
+
+/* info section */
 
 img {
     border-radius: 0.5em;
@@ -126,87 +130,12 @@ img {
     display: inline-block;
 }
 
+/* Styles for the contact section */
+
 #contact {
     margin-bottom: 40px;
     padding: 1rem 0;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/belay-hands.webp") center center / cover no-repeat fixed;
-}
-
-#opening-boxes-container {
-    display: flex;
-    justify-content: center;
-    height: 270px;
-    gap: 20px;
-}
-
-.opening-box {
-    flex: 0 250px;
-    height: 250px;
-    display: inline-block
-}
-
-#prices-boxes-container {
-    display: flex;
-    justify-content: center;
-    height: 270px;
-    gap: 20px;
-}
-
-#prices {
-    margin-bottom: 80px;
-}
-
-table,
-th,
-td {
-    border: 1px solid #F2E8CF;
-    width: 33%;
-    background-color: #386641;
-}
-
-ul {
-    padding: 0;
-    list-style-type: circle;
-    list-style-position: inside;
-    color: #F2E8CF
-}
-
-.info-box {
-    margin-top: 5%;
-    text-align: center;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    background-color: #344e41;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
-    right: 0;
-}
-
-footer>a {
-    color: #F2E8CF;
-    text-decoration: none;
-    padding: 0 15px;
-    font-size: 0.8rem;
-    margin-top: 1.25rem;
-    margin-left: 0.75rem;
-    border: 1px solid #F2E8CF;
-    border-radius: 5px;
-}
-
-footer>p {
-    color: #C0C0C0;
-}
-
-.social-link {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
 }
 
 fieldset {
@@ -262,6 +191,87 @@ button:hover {
 
 label {
     margin: 10px 15px 5px 0;
+}
+
+/* Styles for the opening times and prices section */
+
+#opening-boxes-container {
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    gap: 20px;
+}
+
+.opening-box {
+    flex: 0 250px;
+    height: 250px;
+    display: inline-block
+}
+
+#prices-boxes-container {
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    gap: 20px;
+}
+
+#prices {
+    margin-bottom: 80px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #F2E8CF;
+    width: 33%;
+    background-color: #386641;
+}
+
+ul {
+    padding: 0;
+    list-style-type: circle;
+    list-style-position: inside;
+    color: #F2E8CF
+}
+
+.info-box {
+    margin-top: 5%;
+    text-align: center;
+}
+
+/* Styles for the footer */ 
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #344e41;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+footer>a {
+    color: #F2E8CF;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 0.8rem;
+    margin-top: 1.25rem;
+    margin-left: 0.75rem;
+    border: 1px solid #F2E8CF;
+    border-radius: 5px;
+}
+
+footer>p {
+    color: #C0C0C0;
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 #info-box li {
