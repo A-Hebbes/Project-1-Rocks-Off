@@ -3,6 +3,28 @@
 This is a webiste for the newly opened Rocks Off Climbing Gym. The aim of the website is to convey a welcoming tone to whilst also providing important information. The site also allows users to contact Rocks Off whilst also providing basic information about themselves and their climbing experience. 
 ![RocksOff](docs/responsive-rocksoff.jpg)
 
+## User Experience
+
+### User Stories
+
+1. As a user I want to find information which will aid me in organising a visit to the climbing centre. 
+   
+2. As a user I want to be able to contact the centre to gain further information.  
+
+3. As a user I want to know what facilities the centre provides. 
+
+
+### Design 
+ - #### Colour Scheme
+
+ - The colour pallette was found on the [coolors](https://coolors.co/) site and was used as it used natural, earthy tones which indicate the site's purpose as a rock climbing facility. 
+
+ - The text colour was used as it provided good contrast on darker backgrounds. 
+
+ - #### Typography 
+ - The **Inter** font was used as the main font for the site. This was because it is easily readable and is good for responsive display.  
+
+   
 ## Features 
 
 
